@@ -11,7 +11,7 @@ de soluções</p>
 - [ ] Passo 1: Importar base de dados
 - [ ] Passo 2: Visualizar a base de dados
     - Entender as informações na base de dados 
-    - Descobrir os problemas na base de dados, como ausencia de info
+    - Descobrir os problemas na base de dados, como ausencia de informação
 - [ ] Passo 3: Tratar os dados
 - [ ] Passo 4: Analise Inicial (entender como estão os cancelamentos)
 - [ ] Passo 5: Analise Completa (entender o motivo dos cancelamentos)
@@ -26,7 +26,7 @@ de soluções</p>
 
 - [x] Passo 1 - Manipulação de arquivo .csv. 
 - [x] Passo 2 - Inspecão preliminar da base de dados.
-- [x] Passo 3 - Eliminção de colunas e linhas vazias ou que não tenham dados relevantes e possivel alteração do tipo de dados se necessário.
+- [x] Passo 3 - Eliminção de colunas e linhas vazias ou que não tenham dados relevantes e possível alteração do tipo de dados se necessário.
 - [x] Passo 4 - Aferição da taxa de assinantes que desistiram do serviços prestados pela empresa.
     - Taxa de 26% de desistência.
 - [x] Passo 5 - Produção de gráficos e inferências a partir deles.
@@ -34,7 +34,7 @@ de soluções</p>
  
  <h3>Tipo de Contrato X Desistência:</h3>
  <p>Análise: Quase todos os cancelamentos estão na forma de pagamento mensal.<br>
-  Sugestão: Tornar mais os planos atrativos.</p>
+  Sugestão: Tornar as outras formas de planos mais atrativas.</p>
   
  <div>
 				<img style="background: whitesmoke;" src="Histogramas/TipoContrato.png">
@@ -61,7 +61,7 @@ de soluções</p>
  
  <h3>Serviço de Internet X Desistência:</h3>
   <p>Análise: Há algum problema no serviço de fibra, a taxa de cancelamento está muito alta.<br>
-  Sugestão: Dá acesso aos dados de reparo para que uma anlise mais profunda nesse caso seja<br>
+  Sugestão: Fornecer ao analista acesso aos dados de reparo para que uma análise mais profunda nesse caso seja<br>
   &emsp;&emsp;&emsp;&emsp; &nbsp; feita ou conversar com o setor tecnico responsavel para entender o problema.</p>
   
  <div>
