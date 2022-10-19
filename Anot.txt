@@ -1,0 +1,16 @@
+Desafio: Sua empresa de telecom com varios clientes em serviços 
+diferentes como internet e telefone reparou uma queda de 26% no 
+numrero de clientes e quer que voce proponha uma solução baseado 
+em analise de dados do historico dos clientes dos ultimos anos.
+
+===============================================================
+
+Passo 1: Importar base de dados
+Passo 2: Visualizar a base de dados
+    - Entender as informações na base de dados 
+    - Descobrir os problemas na base de dados, como ausencia de info
+Passo 3: Tratar os dados
+Passo 4: Analise Inicial (entender como estão os cancelamentos)
+Passo 5: Analise Completa (entender o motivo dos cancelamentos)
+===============================================================
+Bibliotecas: pandas, plotly(deu ruim tenho que usar outra)
