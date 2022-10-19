@@ -13,4 +13,26 @@ Passo 3: Tratar os dados
 Passo 4: Analise Inicial (entender como estão os cancelamentos)
 Passo 5: Analise Completa (entender o motivo dos cancelamentos)
 ===============================================================
-Bibliotecas: pandas, plotly(deu ruim tenho que usar outra)
+Bibliotecas: pandas, plotly
+===============================================================
+
+'''
+Conclusões:
+- A chance do cliente cancelar nos primeiros meses é mt alta
+    - Isso pode significar que a primeira experiencia do cliente não tá legal
+    - Talvez seja uma boa ideia fazer descontos ou promoções 
+
+- Clientes com familias maiores tendem a cancelar menos
+    - Oferecer uma segunda linha de graça ou com desconto
+
+- Tem algum problema no serviço de fibra, a taxa de cancelamento está muito alta
+
+- Quanto mais serviços o cliente tem menor a chance dele cancelar
+    - Oferecer serviços de bonus ou com desconto 
+
+- Quase todos os cancelamentos estão na forma de pagamento mensal
+    - Tornar mais atrativo os planos anuais
+
+- Boleto tem muito cancelamentos
+    - dar desconto nas outras formas de pagamento
+'''

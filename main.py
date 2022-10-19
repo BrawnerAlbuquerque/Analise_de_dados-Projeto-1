@@ -1,6 +1,6 @@
 import pandas as pd
 import plotly.express as px
-from time import sleep
+
 
 
 # ======== Passo 1: Importar base de dados =================
@@ -19,7 +19,6 @@ nos passos posteriores ou atrapalhar em analises, logo deve-se exclui-la
 #axis=0 -> linha ; axis=1 -> coluna
 tb = tb.drop('Unnamed: 0',axis=1)
 # print(tb.head()) # para verificar que a coluna foi retirada
-
 
 # ======== Passo 3: Tratar os dados
 # print(tb.info())
@@ -77,24 +76,3 @@ print(tb['Churn'].value_counts(normalize=True)) # porcentagem em relação ao to
 # for coluna in tb.columns:
 #     grafico = px.histogram(tb, x=coluna, color='Churn', text_auto=True)
 #     grafico.show()
-'''
-Conclusões:
-- A chance do cliente cancelar nos primeiros meses é mt alta
-    - Isso pode significar que a primeira experiencia do cliente não tá legal
-    - Talvez seja uma boa ideia fazer descontos ou promoções 
-
-- Clientes com familias maiores tendem a cancelar menos
-    - Oferecer uma segunda linha de graça ou com desconto
-
-- Tem algum problema no serviço de fibra, a taxa de cancelamento está muito alta
-
-- Quanto mais serviços o cliente tem menor a chance dele cancelar
-    - Oferecer serviços de bonus ou com desconto 
-
-- Quase todos os cancelamentos estão na forma de pagamento mensal
-    - Tornar mais atrativo os planos anuais
-
-- Boleto tem muito cancelamentos
-    - dar desconto nas outras formas de pagamento
-
-'''
