@@ -69,9 +69,10 @@ de soluções</p>
 	</div>
  
  <h3>Observação:</h3>
- Outros gráficos não foram usados por seus indicadores não apresentarem expressão</br>
- significativa d desistência ou para que essa apresentação não fique mais extensa</br>
- Contudo os gráficos se encontram na pasta chamada Histogramas no projeto.
+ Outros gráficos não foram usados por seus indicadores não apresentarem expressão
+ significativa de desistência. </br>
+Contudo os gráficos se encontram na pasta chamada 
+Histogramas no projeto.
  
  
 <!--
